@@ -1,6 +1,6 @@
 **Prerequisites**: A host machine with Ubuntu/CentOS OS preinstalled with Vagrant & VirtualBox SW.
 
-For Vagrant and VirtualBox setup [vagrant-host-setup/README.md](https://gitlab.com/sohaibazed/contrail-gatewayless-forwarding/tree/master/vagrant-host-setup)
+For Vagrant and VirtualBox setup [vagrant-host-setup/README.md](https://gitlab.com/sohaibazed/abubakar/tree/master/vagrant-host-setup)
 
 ```bash
 host> git clone git@gitlab.com:sohaibazed/abubakar.git 
