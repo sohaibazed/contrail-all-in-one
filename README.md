@@ -31,7 +31,7 @@ Configure FireFox FoxyProxy add-on by configuring "127.0.0.1" & port 1080 as Sco
 
 ![Web Console](/Images/FoxyProxy-Configure.png)
 
-Now enable FoxyProxy add-on by selecting the profile created earlier and open Contrail GUI using IP address of Vagrant VM https://192.168.100.11:8143
+Now enable FoxyProxy add-on by selecting the profile created earlier and open Contrail GUI using IP address of Vagrant VM https://30.30.30.31:8143
 
 ![Web Console](/Images/FoxyProxy-Contrail-GUI-k8s.png)
 
