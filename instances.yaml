@@ -22,6 +22,9 @@ instances:
       openstack:
       openstack_compute:
       vrouter:
+      kubemanager:
+      k8s_master:
+      k8s_node:
 contrail_configuration:
   #CONTRAIL_CONTAINER_TAG: 5.0.1-0.214-ocata  
   CONTRAIL_VERSION: 5.0.1-0.214-ocata
@@ -36,6 +39,8 @@ contrail_configuration:
   CONTROL_NODES: 30.30.30.31
   CONFIG_NODEMGR__DEFAULTS__minimum_diskGB: 100
   DATABASE_NODEMGR__DEFAULTS__minimum_diskGB: 100
+  AAA_MODE: cloud-admin
+  KUBERNETES_CLUSTER_PROJECT: {}
 kolla_config:
   customize:
     nova.conf: |

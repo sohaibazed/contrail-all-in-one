@@ -9,4 +9,5 @@ pwd
 
 ansible-playbook -i inventory/ -e orchestrator=openstack playbooks/configure_instances.yml
 ansible-playbook -i inventory/ -e orchestrator=openstack playbooks/install_openstack.yml
+ansible-playbook -i inventory/ -e orchestrator=openstack playbooks/install_k8s.yml
 ansible-playbook -i inventory/ -e orchestrator=openstack playbooks/install_contrail.yml
