@@ -5,8 +5,8 @@ Vagrant.configure("2") do |config|
             srv.vm.hostname = "srv1"
             srv.vm.network "private_network", ip:"30.30.30.31"
             srv.ssh.insert_key = true
-            srv.vm.provision "shell", path: "ntp.sh"
-	    srv.vm.provision "shell", path: "install_contrail.sh"
+            srv.vm.provision "shell", path: "scripts/ntp.sh"
+	    srv.vm.provision "shell", path: "scripts/install_contrail.sh"
         config.vm.provider :virtualbox do |vb|
             vb.customize ["modifyvm", :id, "--memory", "32768", "--cpus", "4"]
         end
