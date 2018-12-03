@@ -15,7 +15,7 @@ sudo iptables -F
 # Install packages
 sudo yum install -y epel-release
 sudo yum install -y ntp git
-sudo yum install -y python-urllib3 git ansible-2.4.2.0 pciutils wget tcpdump net-tools python-pip python-boto python2-boto3
+sudo yum install -y python-urllib3 git ansible-2.4.2.0 pciutils wget tcpdump net-tools python-pip
 
 # Configure NTP
 sudo rm -rf /etc/ntp.conf
