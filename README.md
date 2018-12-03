@@ -3,8 +3,8 @@
 For Vagrant and VirtualBox setup [vagrant-host-setup/README.md](https://gitlab.com/sohaibazed/abubakar/tree/master/vagrant-host-setup)
 
 ```bash
-host> git clone git@gitlab.com:sohaibazed/abubakar.git 
-host> cd abubakar
+host> git clone https://gitlab.com/sohaibazed/contrail-all-in-one.git
+host> cd contrail-all-in-one 
 host> vagrant status
 host> vagrantup
 ```
