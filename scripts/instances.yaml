@@ -1,7 +1,7 @@
 global_configuration:
   CONTAINER_REGISTRY: hub.juniper.net/contrail
-  CONTAINER_REGISTRY_USERNAME: JNPR-FieldUser30
-  CONTAINER_REGISTRY_PASSWORD: xRenAC86EKS5rBhv9UM4
+  CONTAINER_REGISTRY_USERNAME: << username >>
+  CONTAINER_REGISTRY_PASSWORD: << password >> 
 provider_config:
   bms:
     ssh_user: root
