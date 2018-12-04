@@ -1,15 +1,23 @@
 **Prerequisites**: A host machine with Ubuntu/CentOS OS preinstalled with Vagrant & VirtualBox SW.
 
-For Vagrant and VirtualBox setup [vagrant-host-setup/README.md](https://gitlab.com/sohaibazed/abubakar/tree/master/vagrant-host-setup)
+For Vagrant and VirtualBox setup [vagrant-host-setup/README.md](https://gitlab.com/sohaibazed/contrail-all-in-one/tree/master/vagrant-host-setup)
 
+### Download Repo from Gitlab
 ```bash
 host> git clone https://gitlab.com/sohaibazed/contrail-all-in-one.git
 host> cd contrail-all-in-one 
+```
+
+### Update Docker repository password in instances.yml file.
+```bash
+host> vi scripts/instances.yml
+```
+
+### Run vagrant deployer.
+```bash
 host> vagrant status
 host> vagrantup
 ```
-
-Download contrail-ansible-deployer.tar.gz file and place it inside the folder. By default without making any change in "Vagrantfile" above topology will be created. You can change MGMT and Ctrl+Data Subnet in Vagrantfile as needed.
 
 ### How to use Foxy Proxy for GUI access
 

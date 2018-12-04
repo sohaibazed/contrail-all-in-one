@@ -7,8 +7,8 @@ This repo provide instructions and scripts setting up BMS host machine for Vagra
 Install CentOS 7.5 on the BMS host and following below steps:
 
 ```bash
-host> git clone git@gitlab.com:sohaibazed/abubakar.git 
-host> cd abubakar/vagrant-host-setup
+host> git clone https://gitlab.com/sohaibazed/contrail-all-in-one.git 
+host> cd contrail-all-in-one/vagrant-host-setup
 host> ./setup_vagrant_centos.sh
 ```
 Note: "setup_vagrant_centos.sh" script will take care of installtion of VirtualBox 5.2, Vagrant, Ansible and JunOS python & ansible modules.
