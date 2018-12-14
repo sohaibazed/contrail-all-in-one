@@ -1,7 +1,7 @@
 global_configuration:
   CONTAINER_REGISTRY: hub.juniper.net/contrail
   CONTAINER_REGISTRY_USERNAME: << username >>
-  CONTAINER_REGISTRY_PASSWORD: << password >> 
+  CONTAINER_REGISTRY_PASSWORD: << password >>
 provider_config:
   bms:
     ssh_user: root
@@ -29,7 +29,7 @@ contrail_configuration:
   #CONTRAIL_CONTAINER_TAG: 5.0.1-0.214-ocata  
   CONTRAIL_VERSION: 5.0.2-0.360-ocata
   CLOUD_ORCHESTRATOR: openstack
-#  UPGRADE_KERNEL: true
+  #UPGRADE_KERNEL: true
   RABBITMQ_NODE_PORT: 5673
   VROUTER_GATEWAY: 30.30.30.1
   ENCAP_PRIORITY: VXLAN,MPLSoUDP,MPLSoGRE
