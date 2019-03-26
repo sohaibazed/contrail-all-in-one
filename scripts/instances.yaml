@@ -27,7 +27,7 @@ instances:
       k8s_node:
 contrail_configuration:
   #CONTRAIL_CONTAINER_TAG: 5.0.1-0.214-ocata  
-  CONTRAIL_VERSION: 5.0.2-0.360-ocata
+  CONTRAIL_VERSION: 5.0.3-0.493-ocata
   CLOUD_ORCHESTRATOR: openstack
   #UPGRADE_KERNEL: true
   RABBITMQ_NODE_PORT: 5673

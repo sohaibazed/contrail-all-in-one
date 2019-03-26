@@ -1,6 +1,6 @@
-cp /vagrant/contrail-ansible-deployer-5.0.2-0.360.tgz /home/vagrant/
+cp /vagrant/contrail-ansible-deployer-5.0.3-0.493.tgz /home/vagrant/
 cp /vagrant/scripts/instances.yaml /home/vagrant/instances.yaml
-tar -zxvf /home/vagrant/contrail-ansible-deployer-5.0.2-0.360.tgz
+tar -zxvf /home/vagrant/contrail-ansible-deployer-5.0.3-0.493.tgz
 
 cp /home/vagrant/instances.yaml /home/vagrant/contrail-ansible-deployer/config/instances.yaml
 cd /home/vagrant/contrail-ansible-deployer
